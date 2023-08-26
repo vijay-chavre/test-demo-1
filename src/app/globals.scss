@@ -19,6 +19,33 @@
     
   }
 }
+
+.button-secondary {
+  
+  background-color: var(--_1hrp33e1);
+  border: 2px solid var(--_1hrp33e1);
+  color: var(--_1hrp33e4);
+  cursor: pointer;
+  border-radius: var(--_1hrp33e1z);
+  display: inline-flex;
+  font-size: var(--_1hrp33e15);
+  font-weight: var(--_1hrp33e1e);
+  line-height: var(--_1hrp33e1m);
+  padding: var(--_1hrp33es) var(--_1hrp33et);
+  &:hover {
+    background-color: transparent;
+    border: 2px solid var(--_1hrp33e1);
+    color: var(--_1hrp33e1);
+  }
+}
+
+.testimonial-card {
+  background-image: linear-gradient(133deg, rgb(253, 178, 93), rgb(68, 54, 202));
+  margin-bottom: 40px;
+  border-radius: var(--_1hrp33e20);
+  overflow: hidden;
+  padding: var(--_1hrp33eu);
+}
 @tailwind utilities;
 
 :root {
